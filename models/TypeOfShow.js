@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const TypeOfShow = new Schema({
   typeOfShow: String,
   typePic1Link: String,
-  typePicLink: String,
+  typePic2Link: String,
   typeDescription: String,
 });
 
