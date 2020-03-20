@@ -1,0 +1,27 @@
+{
+  "name": "show-management-app-backend",
+  "version": "1.0.0",
+  "description": "<p>https://github.com/Antelman82/Show-Management-App-Frontend</p> <p>https://github.com/Antelman82/Show-Management-App-Backend</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antelman82/Show-Management-App-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antelman82/Show-Management-App-Backend/issues"
+  },
+  "homepage": "https://github.com/Antelman82/Show-Management-App-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.1",
+    "mongoose": "^5.9.5",
+    "supertest": "^4.0.2"
+  }
+}
