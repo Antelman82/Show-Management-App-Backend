@@ -39,8 +39,8 @@ const Venue = require("../models/Venue");
             date: 00/00/2010,
             venue: "",
             type: "",
-            user: "",
-            role: ""
+            user: ["", "", "",],
+            role: ["", "", "",]
         },
         {
             businessName: "",
@@ -48,8 +48,8 @@ const Venue = require("../models/Venue");
             date: 00/00/2010,
             venue: "",
             type: "",
-            user: "",
-            role: ""
+            user: ["", "", "",],
+            role: ["", "", "",]
         },
         {
             businessName: "",
@@ -57,8 +57,8 @@ const Venue = require("../models/Venue");
             date: 00/00/2010,
             venue: "",
             type: "",
-            user: "",
-            role: ""
+            user: ["", "", "",],
+            role: ["", "", "",]
         },
         {
             businessName: "",
@@ -66,8 +66,8 @@ const Venue = require("../models/Venue");
             date: 00/00/2010,
             venue: "",
             type: "",
-            user: "",
-            role: ""
+            user: ["", "", "",],
+            role: ["", "", "",]
         },
         {
             businessName: "",
@@ -75,8 +75,8 @@ const Venue = require("../models/Venue");
             date: 00/00/2010,
             venue: "",
             type: "",
-            user: "",
-            role: ""
+            user: ["", "", "",],
+            role: ["", "", "",]
         },
         {
             businessName: "",
@@ -84,8 +84,8 @@ const Venue = require("../models/Venue");
             date: 00/00/2010,
             venue: "",
             type: "",
-            user: "",
-            role: ""
+            user: ["", "", "",],
+            role: ["", "", "",]
         }
     ])
 
@@ -234,19 +234,19 @@ const Venue = require("../models/Venue");
     .catch(err => console.log(err))
 });
 
-Venue.deleteMany({}).then(() => {
-    Venue.collection.insertMany([
-    {
-        businessName: '',
-        venue: '',
-        address: '',
-        city: '',
-        state: '',
-        zip: ''
-    },
-    
-])
+    Venue.deleteMany({}).then(() => {
+        Venue.collection.insertMany([
+        {
+            businessName: '',
+            venue: '',
+            address: '',
+            city: '',
+            state: '',
+            zip: ''
+        },
+        
+    ])
 
-.then(venues => console.log(venues))
-.catch(err => console.log(err))
+    .then(venues => console.log(venues))
+    .catch(err => console.log(err))
 });
