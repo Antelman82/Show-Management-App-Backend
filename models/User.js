@@ -9,9 +9,8 @@ const User = new Schema({
   city: String,
   state: String,
   zip: Number,
-  dateOfBirth: Number,
   phone: Number,
-  email: String,
+  email: String
 });
 
 module.exports = mongoose.model('User', User);
