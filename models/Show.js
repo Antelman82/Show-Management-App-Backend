@@ -2,25 +2,25 @@ const mongoose = require('../db/connection');
 const Schema = mongoose.Schema;
 
 const Show = new Schema({
-  name: String,
+  businessName: String,
   status: ["Prospect", "Scheduled", "Complete", "Cancelled"],
+  date: Date,
   venue: [
     {
         ref: "Venue",
-        type: mongoose.Schema.Types.ObjectsID
+        type: mongoose.Schema.Types.ObjectId
     }  
-  ],
-  date: Date,
-  types: [
+    ],
+  type: [
     {
         ref: "Type",
-        type: mongoose.Schema.Types.ObjectsID
+        type: mongoose.Schema.Types.ObjectId
     }  
-  ],
-  users: [
+    ],
+  user: [
       {
       ref: "User",
-      type: mongoose.Schema.Types.ObjectsID
+      type: mongoose.Schema.Types.ObjectId
     }
     ]
 });
