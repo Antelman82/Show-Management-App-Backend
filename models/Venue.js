@@ -1,7 +1,7 @@
 const mongoose = require('../db/connection');
 const Schema = mongoose.Schema;
 
-const Customer = new Schema({
+const Venue = new Schema({
     businessName: String,
     location: String,
     address: String,
