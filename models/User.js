@@ -5,12 +5,12 @@ const User = new Schema({
   firstName: String,
   lastName: String,
   userName: String,
-  password: Number,
+  password: String,
   address: String,
   city: String,
   state: String,
   zip: Number,
-  phone: Number,
+  phone: String,
   email: String
 });
 
