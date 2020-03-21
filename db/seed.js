@@ -82,7 +82,7 @@ User.deleteMany({}).then(() => {
         address: '4104 83rd Street',
         city: 'Urbandale',
         state: 'IA',
-        zip: '50322',
+        zip: 50322,
         phone: '515.321.2761',
         email: 'kelmbrueschke@gmail.com'
     },
@@ -94,7 +94,7 @@ User.deleteMany({}).then(() => {
         address: '2002 East Main',
         city: 'Knoxville',
         state: 'IA',
-        zip: '50138',
+        zip: 50138,
         phone: '641.891.9689',
         email: 'batman_EMT@yahoo.com'
     },
@@ -106,35 +106,46 @@ User.deleteMany({}).then(() => {
         address: '1124 South Main Avenue',
         city: 'Sioux Center',
         state: 'IA',
-        zip: '51250',
+        zip: 51250,
         phone: '712.578.9372',
         email: 'doug.fusionpros@gmail.com'
     },
-{
-    firstName: '',
-    lastName: '',
-    userName: '',
-    password: '',
-    address: '',
-    city: '',
-    state: '',
-    zip: '',
-    phone: '',
-    email: ''
-},
-{
-    firstName: '',
-    lastName: '',
-    userName: '',
-    password: '',
-    address: '',
-    city: '',
-    state: '',
-    zip: '',
-    phone: '',
-    email: ''
-}
-
+    {
+        firstName: 'Jacob',
+        lastName: 'Amsden',
+        userName: 'jacobamsden',
+        password: '55555',
+        address: '1712 Earlham Road',
+        city: 'Winterset',
+        state: 'IA',
+        zip: 50320,
+        phone: '515.991.9719',
+        email: 'jakri1221@gmail.com'
+    },
+    {
+        firstName: 'Ryan',
+        lastName: 'Hudson',
+        userName: 'ryanhudson',
+        password: '44444',
+        address: '2303 Eagle Point Court',
+        city: 'Des Moines',
+        state: 'IA',
+        zip: 50273,
+        phone: '515.770.1866',
+        email: 'ryanhudson515@gmail.com'
+    },
+    {
+        firstName: 'Robert',
+        lastName: 'Myers',
+        userName: 'robertmyers',
+        password: '66666',
+        address: '127 Blair Street',
+        city: 'Kellogg',
+        state: 'IA',
+        zip: 50135,
+        phone: '515.333.1901',
+        email: 'Arboc_jr@msn.com'
+    }
 ])
 
 .then(users => console.log(users))
