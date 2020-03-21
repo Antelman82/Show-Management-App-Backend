@@ -89,147 +89,164 @@ const Venue = require("../models/Venue");
         }
     ])
 
-.then(shows => console.log(shows))
-.catch(err => console.log(err));
+    .then(shows => console.log(shows))
+    .catch(err => console.log(err));
 });
 
-User.deleteMany({}).then(() => {
-    User.collection.insertMany([
-    {
-        firstName: 'Anthony',
-        lastName: 'Antelman',
-        userName: 'anthonyantelman',
-        password: '12345',
-        address: '6400 NW 86th Street',
-        city: 'Johnston',
-        state: 'IA',
-        zip: 50131,
-        phone: '515.267.4573',
-        email: 'antelmananthonyj@johndeere.com'
-    },    
-    {
-        firstName: 'Kelm',
-        lastName: 'Brueschke',
-        userName: 'kelmbrueschke',
-        password: '54321',
-        address: '4104 83rd Street',
-        city: 'Urbandale',
-        state: 'IA',
-        zip: 50322,
-        phone: '515.321.2761',
-        email: 'kelmbrueschke@gmail.com'
-    },
-    {
-        firstName: 'Mike',
-        lastName: 'Merrill',
-        userName: 'mikemerrill',
-        password: '11111',
-        address: '2002 East Main',
-        city: 'Knoxville',
-        state: 'IA',
-        zip: 50138,
-        phone: '641.891.9689',
-        email: 'batman_EMT@yahoo.com'
-    },
-    {
-        firstName: 'Douglas',
-        lastName: 'Gerwulf',
-        userName: 'douglasgerwulf',
-        password: '22222',
-        address: '1124 South Main Avenue',
-        city: 'Sioux Center',
-        state: 'IA',
-        zip: 51250,
-        phone: '712.578.9372',
-        email: 'doug.fusionpros@gmail.com'
-    },
-    {
-        firstName: 'Jacob',
-        lastName: 'Amsden',
-        userName: 'jacobamsden',
-        password: '55555',
-        address: '1712 Earlham Road',
-        city: 'Winterset',
-        state: 'IA',
-        zip: 50320,
-        phone: '515.991.9719',
-        email: 'jakri1221@gmail.com'
-    },
-    {
-        firstName: 'Ryan',
-        lastName: 'Hudson',
-        userName: 'ryanhudson',
-        password: '44444',
-        address: '2303 Eagle Point Court',
-        city: 'Des Moines',
-        state: 'IA',
-        zip: 50273,
-        phone: '515.770.1866',
-        email: 'ryanhudson515@gmail.com'
-    },
-    {
-        firstName: 'Robert',
-        lastName: 'Myers',
-        userName: 'robertmyers',
-        password: '66666',
-        address: '127 Blair Street',
-        city: 'Kellogg',
-        state: 'IA',
-        zip: 50135,
-        phone: '515.333.1901',
-        email: 'Arboc_jr@msn.com'
-    }
-])
+    User.deleteMany({}).then(() => {
+        User.collection.insertMany([
+        {
+            firstName: 'Anthony',
+            lastName: 'Antelman',
+            userName: 'anthonyantelman',
+            password: '12345',
+            address: '6400 NW 86th Street',
+            city: 'Johnston',
+            state: 'IA',
+            zip: 50131,
+            phone: '515.267.4573',
+            email: 'antelmananthonyj@johndeere.com'
+        },    
+        {
+            firstName: 'Kelm',
+            lastName: 'Brueschke',
+            userName: 'kelmbrueschke',
+            password: '54321',
+            address: '4104 83rd Street',
+            city: 'Urbandale',
+            state: 'IA',
+            zip: 50322,
+            phone: '515.321.2761',
+            email: 'kelmbrueschke@gmail.com'
+        },
+        {
+            firstName: 'Mike',
+            lastName: 'Merrill',
+            userName: 'mikemerrill',
+            password: '11111',
+            address: '2002 East Main',
+            city: 'Knoxville',
+            state: 'IA',
+            zip: 50138,
+            phone: '641.891.9689',
+            email: 'batman_EMT@yahoo.com'
+        },
+        {
+            firstName: 'Douglas',
+            lastName: 'Gerwulf',
+            userName: 'douglasgerwulf',
+            password: '22222',
+            address: '1124 South Main Avenue',
+            city: 'Sioux Center',
+            state: 'IA',
+            zip: 51250,
+            phone: '712.578.9372',
+            email: 'doug.fusionpros@gmail.com'
+        },
+        {
+            firstName: 'Jacob',
+            lastName: 'Amsden',
+            userName: 'jacobamsden',
+            password: '55555',
+            address: '1712 Earlham Road',
+            city: 'Winterset',
+            state: 'IA',
+            zip: 50320,
+            phone: '515.991.9719',
+            email: 'jakri1221@gmail.com'
+        },
+        {
+            firstName: 'Ryan',
+            lastName: 'Hudson',
+            userName: 'ryanhudson',
+            password: '44444',
+            address: '2303 Eagle Point Court',
+            city: 'Des Moines',
+            state: 'IA',
+            zip: 50273,
+            phone: '515.770.1866',
+            email: 'ryanhudson515@gmail.com'
+        },
+        {
+            firstName: 'Robert',
+            lastName: 'Myers',
+            userName: 'robertmyers',
+            password: '66666',
+            address: '127 Blair Street',
+            city: 'Kellogg',
+            state: 'IA',
+            zip: 50135,
+            phone: '515.333.1901',
+            email: 'Arboc_jr@msn.com'
+        }
+    ])
 
-.then(users => console.log(users))
-.catch(err => console.log(err))
+    .then(users => console.log(users))
+    .catch(err => console.log(err))
 });
 
-Customer.deleteMany({}).then(() => {
-    Customer.collection.insertMany([
+    Customer.deleteMany({}).then(() => {
+        Customer.collection.insertMany([
+        {
+            businessName: '',
+            lastName: '',
+            userName: '',
+            phone: '',
+            email: '',
+            comment: ''
+        },
+        
+    ])
+
+    .then(customers => console.log(customers))
+    .catch(err => console.log(err))
+});
+
+    Equipment.deleteMany({}).then(() => {
+        Equipment.collection.insertMany([
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        
+    ])
+
+    .then(equipments => console.log(equipments))
+    .catch(err => console.log(err))
+});
+
+    Product.deleteMany({}).then(() => {
+        Product.collection.insertMany([
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        
+    ])
+
+    .then(products => console.log(products))
+    .catch(err => console.log(err))
+});
+
+Venue.deleteMany({}).then(() => {
+    Venue.collection.insertMany([
     {
         businessName: '',
-        lastName: '',
-        userName: '',
-        phone: '',
-        email: '',
-        comment: ''
+        venue: '',
+        address: '',
+        city: '',
+        state: '',
+        zip: ''
     },
     
 ])
 
-.then(customers => console.log(customers))
-.catch(err => console.log(err))
-});
-
-Equipment.deleteMany({}).then(() => {
-    Equipment.collection.insertMany([
-    {
-        name: '',
-        size: '',
-        description: '',
-        quantity: '',
-        type: ''
-    },
-    
-])
-
-.then(equipments => console.log(equipments))
-.catch(err => console.log(err))
-});
-
-Product.deleteMany({}).then(() => {
-    Product.collection.insertMany([
-    {
-        name: '',
-        size: '',
-        description: '',
-        quantity: '',
-        type: ''
-    },
-    
-])
-
-.then(products => console.log(products))
+.then(venues => console.log(venues))
 .catch(err => console.log(err))
 });
