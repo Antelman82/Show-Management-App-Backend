@@ -6,8 +6,8 @@ const Customer = new Schema({
   contacts: [{
     firstName: String,
     lastName: String,
-    email: String,
-    phone: Number
+    phone: String,
+    email: String
   }],
   
   comment: []

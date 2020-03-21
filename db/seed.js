@@ -28,37 +28,70 @@ const Venue = require("../models/Venue");
 
     .then(types => console.log(types))
     .catch(err => console.log(err));
-})
+});
 
 
-// Show.deleteMany({}).then(() => {
-//     Show.collection.insertMany([
-//     {
-//         businessName: String,
-//         status: ["Prospect", "Scheduled", "Complete", "Cancelled"],
-//         date: Date,
-//         venue: [
-//     {
-//         ref: "Venue",
-//         type: mongoose.Schema.Types.ObjectId
-//     }  
-//     ],
-//   type: [
-//     {
-//         ref: "Type",
-//         type: mongoose.Schema.Types.ObjectId
-//     }  
-//     ],
-//   user: [
-//       {
-//       ref: "User",
-//       type: mongoose.Schema.Types.ObjectId
-//     }
-// ]);
+    Show.deleteMany({}).then(() => {
+        Show.collection.insertMany([
+        {
+            businessName: "",
+            status: "",
+            date: 00/00/2010,
+            venue: "",
+            type: "",
+            user: "",
+            role: ""
+        },
+        {
+            businessName: "",
+            status: "",
+            date: 00/00/2010,
+            venue: "",
+            type: "",
+            user: "",
+            role: ""
+        },
+        {
+            businessName: "",
+            status: "",
+            date: 00/00/2010,
+            venue: "",
+            type: "",
+            user: "",
+            role: ""
+        },
+        {
+            businessName: "",
+            status: "",
+            date: 00/00/2010,
+            venue: "",
+            type: "",
+            user: "",
+            role: ""
+        },
+        {
+            businessName: "",
+            status: "",
+            date: 00/00/2010,
+            venue: "",
+            type: "",
+            user: "",
+            role: ""
+        },
+        {
+            businessName: "",
+            status: "",
+            date: 00/00/2010,
+            venue: "",
+            type: "",
+            user: "",
+            role: ""
+        }
+    ])
 
-// .then(shows => console.log(shows))
-// .catch(err => console.log(err));
-// })
+.then(shows => console.log(shows))
+.catch(err => console.log(err));
+});
 
 User.deleteMany({}).then(() => {
     User.collection.insertMany([
@@ -150,4 +183,53 @@ User.deleteMany({}).then(() => {
 
 .then(users => console.log(users))
 .catch(err => console.log(err))
-})
+});
+
+Customer.deleteMany({}).then(() => {
+    Customer.collection.insertMany([
+    {
+        businessName: '',
+        lastName: '',
+        userName: '',
+        phone: '',
+        email: '',
+        comment: ''
+    },
+    
+])
+
+.then(customers => console.log(customers))
+.catch(err => console.log(err))
+});
+
+Equipment.deleteMany({}).then(() => {
+    Equipment.collection.insertMany([
+    {
+        name: '',
+        size: '',
+        description: '',
+        quantity: '',
+        type: ''
+    },
+    
+])
+
+.then(equipments => console.log(equipments))
+.catch(err => console.log(err))
+});
+
+Product.deleteMany({}).then(() => {
+    Product.collection.insertMany([
+    {
+        name: '',
+        size: '',
+        description: '',
+        quantity: '',
+        type: ''
+    },
+    
+])
+
+.then(products => console.log(products))
+.catch(err => console.log(err))
+});
