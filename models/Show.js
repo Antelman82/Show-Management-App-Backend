@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const Show = new Schema({
   Name: String,
-  Status: ["Cancelled", "Scheduled", "Complete"],
+  Status: ["Prospect", "Scheduled", "Complete", "Cancelled"],
   Venue: [
     {
         ref: "Venue",
