@@ -188,14 +188,29 @@ const Venue = require("../models/Venue");
     Customer.deleteMany({}).then(() => {
         Customer.collection.insertMany([
         {
+            businessName: 'Jordan Creek Town Center',
+            firstName: 'Randy',
+            lastName: 'Tennison',
+            phone: '515.224.5000',
+            email: 'randytennison@brookfieldproperties.com',
+            comment: ''
+        },
+        {
             businessName: '',
+            firstName: '',
             lastName: '',
-            userName: '',
             phone: '',
             email: '',
             comment: ''
         },
-        
+        {
+            businessName: ''
+            firstName: '',
+            lastName: '',
+            phone: '',
+            email: '',
+            comment: ''
+        },
     ])
 
     .then(customers => console.log(customers))
