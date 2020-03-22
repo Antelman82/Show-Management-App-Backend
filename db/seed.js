@@ -16,7 +16,7 @@ const Venue = require("../models/Venue");
         },
         {
             show: "Pyrotechnics",
-            description: `"Pyrotechnics" can be used in two different methods - Indoor Pyrotechinc Effects or Outdoor Close Proximity Effects. Indoor effects would include flames, mines, comets, gerbs (fountains), concussions, airbursts, flash pots, etc. Some of the uses for this type of effect would include sporting events, concerts, stage productions, corporate events, just to name a few. Outdoor Close Proximity Pyrotechnics ..`,
+            description: `"Pyrotechnics" can be used in two different methods - Indoor Pyrotechinc Effects or Outdoor Close Proximity Effects. Indoor effects would include flames, mines, comets, gerbs (fountains), concussions, airbursts, flash pots, etc. Some of the uses for this type of effect would include sporting events, concerts, stage productions, corporate events, just to name a few. Outdoor Close Proximity Pyrotechnics include similar effects as indoor, but usually much bigger. Some examples are flames that can go as high as 150' and Gasoline Fireballs. Also Mines and Comets that can reach 300'`,
             pictures: ["Pyro-ISU1.png", "Slipknot-pyro.jpg"]
         },
         {
@@ -82,7 +82,7 @@ const Venue = require("../models/Venue");
             businessName: "KISS Tour",
             status: "Cancelled",
             date: 11/23/2019,
-            venue: "Qudos Bank Arena",
+            venue: "Qudos Bank Arena (Australia)",
             type: "Pyrotechnics",
             user: ["Kelm Bruechke",],
             role: ["Cover License",]
@@ -192,24 +192,88 @@ const Venue = require("../models/Venue");
             firstName: 'Randy',
             lastName: 'Tennison',
             phone: '515.224.5000',
-            email: 'randytennison@brookfieldproperties.com',
-            comment: ''
+            email: 'randy.tennison@brookfieldproperties.com',
+            comment: 'Great Venue - customer is very pleased with shows.'
         },
         {
-            businessName: '',
-            firstName: '',
-            lastName: '',
-            phone: '',
-            email: '',
-            comment: ''
+            businessName: 'Iowa State University - Football',
+            firstName: 'Mary',
+            lastName: 'Pink',
+            phone: '515.294.1534',
+            email: 'mpink@iastate.edu',
+            comment: 'Excellent Customer to work with'
         },
         {
-            businessName: ''
-            firstName: '',
-            lastName: '',
-            phone: '',
-            email: '',
-            comment: ''
+            businessName: 'Iowa State University - Alumni Association',
+            firstName: 'Mary Kate',
+            lastName: 'Misak',
+            phone: '515.294.2632',
+            email: 'mkmisak@iastate.edu',
+            comment: 'Fun Show - Shoots at midnight before Homecoming Game'
+        },
+        {
+            businessName: 'Iowa State University - Wrestling',
+            firstName: 'Laura',
+            lastName: 'Spieth',
+            phone: '515.357.6662',
+            email: 'lspieth@iastate.edu',
+            comment: 'I Love Wrestling!!!'
+        },
+        {
+            businessName: 'Iowa Wild Hockey Team',
+            firstName: 'Alexandra (Allie)',
+            lastName: 'Brown',
+            phone: '712.540.7865',
+            email: 'alexandra.brown@iowawild.com',
+            comment: '38 Regular Season Games'
+        },
+        {
+            businessName: 'Prairie Meadows',
+            firstName: 'Kayla',
+            lastName: 'DeBruin',
+            phone: '515.967.8504',
+            email: 'kayla.debruin@prairiemeadows.com',
+            comment: 'Favorite Show - raised budget to $40,000 for 2020.'
+        },
+        {
+            businessName: 'Parks Area Foundation',
+            firstName: 'Bill',
+            lastName: 'Wheeler',
+            phone: '515.770.6275',
+            email: 'highlandhardware3613@yahoo.com',
+            comment: 'New Venue this year.'
+        },
+        {
+            businessName: 'KISS - Concert Tour',
+            firstName: 'Yulia',
+            lastName: 'Shibinskaya',
+            phone: '310.600.6571',
+            email: 'yulia@ffp-fx.net',
+            comment: 'Best Indoor Gig Ever!!!'
+        },
+        {
+            businessName: 'Disturbed - Concert Tour',
+            firstName: 'Ariana',
+            lastName: 'George',
+            phone: '424.376.8014',
+            email: 'arianna@ffp-fx.net',
+            comment: 'Amazing Flames and very unique flame drop from ceiling'
+        },
+        {
+            businessName: 'City of Fairmont MN',
+            firstName: 'Sam',
+            lastName: 'Cress',
+            phone: '507.236.6413',
+            email: 'scress@cressref.com',
+            comment: 'Great Group of firefighters that work very hard as helpers.'
+        },
+        {
+            businessName: 'Drake University - Drake Relays',
+            firstName: 'Aimee',
+            lastName: 'Lane',
+            phone: '515.271.4003',
+            email: 'aimee.schmidt@drake.edu',
+            comment: 'Drake Stadium is a fun place to shoot!'
         },
     ])
 
