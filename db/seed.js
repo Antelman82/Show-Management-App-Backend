@@ -404,145 +404,131 @@ const Venue = require("../models/Venue");
     Product.deleteMany({}).then(() => {
         Product.collection.insertMany([
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Red Mine',
+            size: '3"',
+            description: 'Ground Effect',
+            quantity: '100',
+            type: 'Fireworks'
+        },
+        {
+            name: 'Blue Comet',
+            size: '3"',
+            description: 'Ground Effect',
+            quantity: '50',
+            type: 'Fireworks'
+        },
+        {
+            name: 'White Peony',
+            size: '3"',
+            description: 'Aerial Shell',
+            quantity: '50',
+            type: 'Fireworks'
+        },
+        {
+            name: 'Green Chrysanthemum',
+            size: '3"',
+            description: 'Aerial Shell',
+            quantity: '25',
+            type: 'Fireworks'
+        },
+        {
+            name: 'Purple Peony with Orange Pistol',
+            size: '3"',
+            description: 'Aerial Shell',
+            quantity: '30',
+            type: 'Fireworks'
+        },
+        {
+            name: 'Wave to Varigated',
+            size: '4"',
+            description: 'Aerial Shell',
+            quantity: '35',
+            type: 'Fireworks'
+        },
+        {
+            name: 'Brocade Ring',
+            size: '5"',
+            description: 'Aerial Shell',
+            quantity: '55',
+            type: 'Fireworks'
+        },
+        {
+            name: 'Red Star',
+            size: '5"',
+            description: 'Aerial Pattern Shell',
+            quantity: '10',
+            type: 'Fireworks'
+        },
+        {
+            name: 'White Butterfly',
+            size: '5"',
+            description: 'Aerial Pattern Shell',
+            quantity: '15',
+            type: 'Fireworks'
         },
         {
             name: '',
             size: '',
             description: '',
             quantity: '',
-            type: ''
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Salute',
+            size: '3"',
+            description: 'No Color - Noise Only',
+            quantity: '45',
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Blue Roman Candle Bundle',
+            size: '.75"',
+            description: 'V-Shaped 300 Shot',
+            quantity: '20',
+            type: 'Fireeworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Indoor - 20 foot Red Mine',
+            size: '.75"',
+            description: 'Indoor mine',
+            quantity: '10',
+            type: 'Pyrotechnics'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Indoor - 1 second x 65 foot Gerb',
+            size: '.75"',
+            description: 'Indoor fountain - gerb',
+            quantity: '10',
+            type: 'Pyrotechnics'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Indoor - 5 second Whistling Rocket',
+            size: '.50"',
+            description: 'Grid Rocket - 500 foot Travel',
+            quantity: '10',
+            type: 'Pyrotechnics'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Regular Fog Fluid',
+            size: '1 Gallon',
+            description: 'PyroFog fluid',
+            quantity: '4',
+            type: 'Special Effects'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Red 30 foot - 1" Streamer Package',
+            size: '1"',
+            description: '12 pcs per pkg',
+            quantity: '10',
+            type: 'Special Effects'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
-        {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
-        {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
-        {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
-        {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
-        {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
-        {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
-        {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
-        {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
-        {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
-        {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
-        },
+            name: 'Blue 15 foot - 1" Stremer Package',
+            size: '1"',
+            description: '12 pcs per pkg',
+            quantity: '10',
+            type: 'Special Effects'
+        }
     ])
 
     .then(products => console.log(products))
