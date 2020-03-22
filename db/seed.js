@@ -284,78 +284,78 @@ const Venue = require("../models/Venue");
     Equipment.deleteMany({}).then(() => {
         Equipment.collection.insertMany([
         {
-            name: '2 1/2" - 10 Shot Rack',
-            size: '2 1/2"',
+            name: '2 1/2 inch - 10 Shot Rack',
+            size: '2 1/2 inch',
             description: 'Fiberglass - Wood',
             quantity: 50,
             type: 'Fireworks'
         },
         {
-            name: '3" - 10 Shot Rack',
-            size: '3"',
+            name: '3 inch - 10 Shot Rack',
+            size: '3 inch',
             description: 'Fiberglass - Wood',
             quantity: 75,
             type: 'Fireworks'
         },
         {
-            name: '3" - 12 Shot Rack',
-            size: '3"',
+            name: '3 inch - 12 Shot Rack',
+            size: '3 inch',
             description: 'Fiberglass - Wood',
             quantity: 50,
             type: 'Fireworks'
         },
         {
-            name: '4" - 10 Shot Rack',
-            size: '4"',
+            name: '4 inch - 10 Shot Rack',
+            size: '4 inch',
             description: 'Fiberglass - Wood',
             quantity: 50,
             type: 'Fireworks'
         },
         {
-            name: '5" - 5 Shot Rack',
-            size: '5"',
+            name: '5 inch - 5 Shot Rack',
+            size: '5 inch',
             description: 'Fiberglass - Wood',
             quantity: 25,
             type: 'Fireworks'
         },
         {
-            name: '6" - 5 Shot Rack',
-            size: '6"',
+            name: '6 inch - 5 Shot Rack',
+            size: '6 inch',
             description: 'Fiberglass - Wood',
             quantity: 15,
             type: 'Fireworks'
         },
         {
-            name: '3" Steel Mortar',
-            size: '3"',
+            name: '3 inch Steel Mortar',
+            size: '3 inch',
             description: 'Steel',
             quantity: 10,
             type: 'Fireworks'
         },
         {
-            name: '3" Fiberglass Mortar',
-            size: '3"',
+            name: '3 inch Fiberglass Mortar',
+            size: '3 inch',
             description: 'Fiberglass',
             quantity: 40,
             type: 'Fireworks'
         },
         {
-            name: '8" Fiberglass Mortar',
-            size: '8"',
+            name: '8 inch Fiberglass Mortar',
+            size: '8 inch',
             description: 'Fiberglass',
             quantity: 10,
             type: 'Fireworks'
         },
         {
-            name: '10" Fiberglass Mortar',
-            size: '10"',
+            name: '10 inch Fiberglass Mortar',
+            size: '10 inch',
             description: 'Fiberglass',
             quantity: 5,
             type: 'Fireworks'
         },
         {
-            name: '12" Fiberglass Mortar',
-            size: '12"',
+            name: '12 inch Fiberglass Mortar',
+            size: '12 inch',
             description: 'Fiberglass',
             quantity: 2,
             type: 'Fireworks'
@@ -454,128 +454,128 @@ const Venue = require("../models/Venue");
         Product.collection.insertMany([
         {
             name: 'Red Mine',
-            size: '3"',
+            size: '3 inch',
             description: 'Ground Effect',
-            quantity: '100',
+            quantity: 100,
             type: 'Fireworks'
         },
         {
             name: 'Blue Comet',
-            size: '3"',
+            size: '3 inch',
             description: 'Ground Effect',
-            quantity: '50',
+            quantity: 50,
             type: 'Fireworks'
         },
         {
             name: 'White Peony',
-            size: '3"',
+            size: '3 inch',
             description: 'Aerial Shell',
-            quantity: '50',
+            quantity: 50,
             type: 'Fireworks'
         },
         {
             name: 'Green Chrysanthemum',
-            size: '3"',
+            size: '3 inch',
             description: 'Aerial Shell',
-            quantity: '25',
+            quantity: 25,
             type: 'Fireworks'
         },
         {
             name: 'Purple Peony with Orange Pistol',
-            size: '3"',
+            size: '3 inch',
             description: 'Aerial Shell',
-            quantity: '30',
+            quantity: 30,
             type: 'Fireworks'
         },
         {
             name: 'Wave to Varigated',
-            size: '4"',
+            size: '4 inch',
             description: 'Aerial Shell',
-            quantity: '35',
+            quantity: 35,
             type: 'Fireworks'
         },
         {
             name: 'Brocade Ring',
-            size: '5"',
+            size: '5 inch',
             description: 'Aerial Shell',
-            quantity: '55',
+            quantity: 55,
             type: 'Fireworks'
         },
         {
             name: 'Red Star',
-            size: '5"',
+            size: '5 inch',
             description: 'Aerial Pattern Shell',
-            quantity: '10',
+            quantity: 10,
             type: 'Fireworks'
         },
         {
             name: 'White Butterfly',
-            size: '5"',
+            size: '5 inch',
             description: 'Aerial Pattern Shell',
-            quantity: '15',
+            quantity: 15,
             type: 'Fireworks'
         },
         {
             name: 'Glittering Willow Waterfall',
-            size: '8"',
+            size: '8 inch',
             description: 'Aerial Shell',
-            quantity: '7',
+            quantity: 7,
             type: 'Fireworks'
         },
         {
             name: 'Salute',
-            size: '3"',
+            size: '3 inch',
             description: 'No Color - Noise Only',
-            quantity: '45',
+            quantity: 45,
             type: 'Fireworks'
         },
         {
             name: 'Blue Roman Candle Bundle',
-            size: '.75"',
+            size: '.75 inch',
             description: 'V-Shaped 300 Shot',
-            quantity: '20',
+            quantity: 20,
             type: 'Fireeworks'
         },
         {
             name: 'Indoor - 20 foot Red Mine',
-            size: '.75"',
+            size: '.75 inch',
             description: 'Indoor mine',
-            quantity: '10',
+            quantity: 10,
             type: 'Pyrotechnics'
         },
         {
             name: 'Indoor - 1 second x 65 foot Gerb',
-            size: '.75"',
+            size: '.75 inch',
             description: 'Indoor fountain - gerb',
-            quantity: '10',
+            quantity: 10,
             type: 'Pyrotechnics'
         },
         {
             name: 'Indoor - 5 second Whistling Rocket',
-            size: '.50"',
+            size: '.50 inch',
             description: 'Grid Rocket - 500 foot Travel',
-            quantity: '10',
+            quantity: 10,
             type: 'Pyrotechnics'
         },
         {
             name: 'Regular Fog Fluid',
             size: '1 Gallon',
             description: 'PyroFog fluid',
-            quantity: '4',
+            quantity: 4,
             type: 'Special Effects'
         },
         {
             name: 'Red 30 foot - 1" Streamer Package',
-            size: '1"',
+            size: '1 inch',
             description: '12 pcs per pkg',
-            quantity: '10',
+            quantity: 10,
             type: 'Special Effects'
         },
         {
             name: 'Blue 15 foot - 1" Stremer Package',
-            size: '1"',
+            size: '1 inch',
             description: '12 pcs per pkg',
-            quantity: '10',
+            quantity: 10,
             type: 'Special Effects'
         }
     ])
