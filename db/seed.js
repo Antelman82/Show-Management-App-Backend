@@ -565,14 +565,14 @@ const Venue = require("../models/Venue");
             type: 'Special Effects'
         },
         {
-            name: 'Red 30 foot - 1" Streamer Package',
+            name: 'Red 30 foot - 1 inch Streamer Package',
             size: '1 inch',
             description: '12 pcs per pkg',
             quantity: 10,
             type: 'Special Effects'
         },
         {
-            name: 'Blue 15 foot - 1" Stremer Package',
+            name: 'Blue 15 foot - 1 inch Stremer Package',
             size: '1 inch',
             description: '12 pcs per pkg',
             quantity: 10,
