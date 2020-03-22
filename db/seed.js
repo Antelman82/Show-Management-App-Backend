@@ -632,7 +632,7 @@ const Venue = require("../models/Venue");
             zip: '50311'
         },
         {
-            venue: 'Qudos ank Arena (Australia)',
+            venue: 'Qudos Bank Arena (Australia)',
             address: '19 Edwin Flack Avenue',
             city: 'Sydney Olympic Park',
             state: 'NSW',
@@ -652,4 +652,4 @@ const Venue = require("../models/Venue");
 
     .then(venues => console.log(venues))
     .catch(err => console.log(err))
-});
+})
