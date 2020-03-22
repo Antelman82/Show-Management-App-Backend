@@ -6,7 +6,8 @@ const Venue = new Schema({
     address: String,
     city: String,
     state: String,
-    zip: Number
+    country: String,
+    zip: String
 });
 
 module.exports = mongoose.model('Venue', Venue);

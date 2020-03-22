@@ -9,7 +9,7 @@ const User = new Schema({
   address: String,
   city: String,
   state: String,
-  zip: Number,
+  zip: String,
   phone: String,
   email: String
 });

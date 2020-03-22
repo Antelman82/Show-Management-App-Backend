@@ -290,7 +290,111 @@ const Venue = require("../models/Venue");
             quantity: '',
             type: ''
         },
-        
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
     ])
 
     .then(equipments => console.log(equipments))
@@ -306,7 +410,139 @@ const Venue = require("../models/Venue");
             quantity: '',
             type: ''
         },
-        
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
+        {
+            name: '',
+            size: '',
+            description: '',
+            quantity: '',
+            type: ''
+        },
     ])
 
     .then(products => console.log(products))
@@ -316,13 +552,101 @@ const Venue = require("../models/Venue");
     Venue.deleteMany({}).then(() => {
         Venue.collection.insertMany([
         {
-            businessName: '',
-            venue: '',
-            address: '',
-            city: '',
-            state: '',
+            venue: 'Jordan Creek Mall',
+            address: '101 Jordan Creek Parkway, Suite 12518',
+            city: 'West Des Moines',
+            state: 'IA',
+            country: 'USA',
+            zip: '50266'
+        },
+        {
+            venue: 'Jack Trice Stadium',
+            address: '1732 South 4th Street',
+            city: 'Ames',
+            state: 'IA',
+            country: 'USA',
+            zip: '50011'
+        },
+        {
+            venue: 'ISU Campanile',
+            address: '2335 Union Drive',
+            city: 'Ames',
+            state: 'IA',
+            country: 'USA',
+            zip: '50011'
+        },
+        {
+            venue: 'Hilton Coliseum',
+            address: '1705 Center Drive',
+            city: 'Ames',
+            state: 'IA',
+            country: 'USA',
+            zip: '50011'
+        },
+        {
+            venue: 'Wells Fargo Arena',
+            address: '233 Center Street',
+            city: 'Des Moines',
+            state: 'IA',
+            country: 'USA',
+            zip: '50309'
+        },
+        {
+            venue: 'Riverview Island',
+            address: '710 Corning Avenue',
+            city: 'Des Moines',
+            state: 'IA',
+            country: 'USA',
+            zip: '50313'
+        },
+        {
+            venue: 'Target Center',
+            address: '600 North 1st Avenue',
+            city: 'Minneapolis',
+            state: 'MN',
+            country: 'USA',
+            zip: '55403'
+        },
+        {
+            venue: 'Sprint Center',
+            address: '1407 Grand Boulevard',
+            city: 'Kansas City',
+            state: 'MO',
+            country: 'USA',
+            zip: '56031'
+        },
+        {
+            venue: 'City Park',
+            address: '507 Lake Avenue',
+            city: 'Fairmont',
+            state: 'MN',
+            country: 'USA',
+            zip: '56031'
+        },
+        {
+            venue: 'Drake Stadium',
+            address: '2719 Forest Avenue',
+            city: 'Des Moines',
+            state: 'IA',
+            country: 'USA',
+            zip: '50311'
+        },
+        {
+            venue: 'Qudos ank Arena (Australia)',
+            address: '19 Edwin Flack Avenue',
+            city: 'Sydney Olympic Park',
+            state: 'NSW',
+            country: 'AUS',
             zip: ''
         },
+        {
+            venue: 'Prairie Meadows Racetrack',
+            address: '1 Prairie Meadows Drive',
+            city: 'Altoona',
+            state: 'IA',
+            country: 'USA',
+            zip: '50009'
+        }
         
     ])
 
