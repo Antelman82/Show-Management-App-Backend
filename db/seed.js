@@ -284,117 +284,166 @@ const Venue = require("../models/Venue");
     Equipment.deleteMany({}).then(() => {
         Equipment.collection.insertMany([
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '2 1/2" - 10 Shot Rack',
+            size: '2 1/2"',
+            description: 'Fiberglass - Wood',
+            quantity: 50,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '3" - 10 Shot Rack',
+            size: '3"',
+            description: 'Fiberglass - Wood',
+            quantity: 75,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '3" - 12 Shot Rack',
+            size: '3"',
+            description: 'Fiberglass - Wood',
+            quantity: 50,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '4" - 10 Shot Rack',
+            size: '4"',
+            description: 'Fiberglass - Wood',
+            quantity: 50,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '5" - 5 Shot Rack',
+            size: '5"',
+            description: 'Fiberglass - Wood',
+            quantity: 25,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '6" - 5 Shot Rack',
+            size: '6"',
+            description: 'Fiberglass - Wood',
+            quantity: 15,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '3" Steel Mortar',
+            size: '3"',
+            description: 'Steel',
+            quantity: 10,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '3" Fiberglass Mortar',
+            size: '3"',
+            description: 'Fiberglass',
+            quantity: 40,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '8" Fiberglass Mortar',
+            size: '8"',
+            description: 'Fiberglass',
+            quantity: 10,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '10" Fiberglass Mortar',
+            size: '10"',
+            description: 'Fiberglass',
+            quantity: 5,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: '12" Fiberglass Mortar',
+            size: '12"',
+            description: 'Fiberglass',
+            quantity: 2,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Cobra 18R2',
+            size: '18 Cue',
+            description: 'Controller - programmable',
+            quantity: 5,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Cobra 18M',
+            size: '18 Cue',
+            description: 'Field Module Wireless LiPo',
+            quantity: 30,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Cobra 18R',
+            size: '18 Cue',
+            description: 'Controller - non-programmable',
+            quantity: 2,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Cobra 36M',
+            size: '36 Cue',
+            description: 'Field Module Wireless LiPo',
+            quantity: 4,
+            type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
-            type: ''
+            name: 'Delcor 200 Shot',
+            size: '200 Cue',
+            description: 'Controller - Wired',
+            quantity: 2,
+            type: 'Fireworks'
         },
+        {
+            name: 'Delcor 400 Shot',
+            size: '400 Cue',
+            description: 'Controller - Wired',
+            quantity: 1,
+            type: 'Fireworks'
+        },
+        {
+            name: 'Flame System - Dragonfly',
+            size: 'Large',
+            description: '25 foot - 30 foot Flames',
+            quantity: 4,
+            type: 'Pyrotechnics'
+        },
+        {
+            name: 'Flame System - Firefly',
+            size: 'Small',
+            description: '6 foot - 8 foot Flames',
+            quantity: 4,
+            type: 'Pyrotechnics'
+        },
+        {
+            name: 'Flame System - Galaxis',
+            size: 'Small',
+            description: '25 foot - 30 foot flames Wireless DMX',
+            quantity: 8,
+            type: 'Pyrotechnics'
+        },
+        {
+            name: 'Fog Machine - Omnisistem',
+            size: 'Small',
+            description: 'PyroFog Vertical',
+            quantity: 2,
+            type: 'Special Effects'
+        },
+        {
+            name: 'Fog Machine - Martin',
+            size: 'Large',
+            description: 'Magnum 2000 Horizontal',
+            quantity: 1,
+            type: 'Special Effects'
+        },
+        {
+            name: 'CryoFog Cryo Jet',
+            size: 'Large',
+            description: 'DMX with LED Programmable Lights',
+            quantity: 2,
+            type: 'Special Effects'
+        }
     ])
 
     .then(equipments => console.log(equipments))
@@ -467,10 +516,10 @@ const Venue = require("../models/Venue");
             type: 'Fireworks'
         },
         {
-            name: '',
-            size: '',
-            description: '',
-            quantity: '',
+            name: 'Glittering Willow Waterfall',
+            size: '8"',
+            description: 'Aerial Shell',
+            quantity: '7',
             type: 'Fireworks'
         },
         {
