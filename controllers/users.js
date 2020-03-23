@@ -6,6 +6,14 @@ router.get("/", (req, res) => {
     User.find().then(users => res.json(users));
 });
 
+router.get("/:user.userName", (req, res) => {
+    const userName = req.params.user.userName;
+    User.findOne({ userName: user.userName }).then(user => {
+      res.json(user);
+    });
+  });ß
+
+
 router.post("/", (req, res) => {
     const newUser = req.body;
     User.create(newUser).then(created => {
@@ -13,4 +21,4 @@ router.post("/", (req, res) => {
     });
   });
 
-module.exports = router
+module.exports = router"
