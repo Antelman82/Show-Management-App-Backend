@@ -39,8 +39,8 @@ const Venue = require("../models/Venue");
             date: 01/13/2019,
             venue: "Hilton Coliseum",
             type: "Pyrotechnics",
-            user: ["Kelm Brueschke", "Mike Merrill", "Jacob Amsden",],
-            role: ["Lead Operator", "Assistant Operator", "Assistant Operator",]
+            user: ["Kelm Brueschke", "Anthony Antelman", "Mike Merrill", "Jacob Amsden",],
+            role: ["Lead Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator",]
         },
         {
             businessName: "RV One - Tampa",
@@ -75,8 +75,8 @@ const Venue = require("../models/Venue");
             date: 06/30/2019,
             venue: "6/30/19",
             type: "Fireworks",
-            user: ["Kelm Brueschke", "Mike Merrill", "Jacob Amsden",],
-            role: ["Lead Operator", "Assistant Operator", "Assistant Operator",]
+            user: ["Kelm Brueschke", "Mike Merrill", "Jacob Amsden", "Anthony Antelman", "Ryan Hudson", "Doglas Gerwulf"],
+            role: ["Lead Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator",]
         },
         {
             businessName: "KISS Tour",
