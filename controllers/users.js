@@ -11,7 +11,7 @@ router.get("/:user.userName", (req, res) => {
     User.findOne({ userName: user.userName }).then(user => {
       res.json(user);
     });
-  });ß
+  });
 
 
 router.post("/", (req, res) => {
