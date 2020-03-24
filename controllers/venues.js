@@ -6,10 +6,10 @@ router.get("/", (req, res) => {
     Venue.find().then(venues => res.json(venues));
 });
 
-router.get("/:_Id", (req, res) => {
-    console.log(req.params)
-    const venue_Id = req.params.venue_Id;
-    Venue.findOne({ venue_Id: venue_Id }).then(venue => {
+router.get("/:_id", (req, res) => {
+    console.log(req.params._id)
+    const venueId = req.params._id;
+    Venue.find({ _id: venueId }).then(venue => {
       res.json(venue);
     });
   });
