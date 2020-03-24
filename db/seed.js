@@ -7,6 +7,13 @@ const Type = require("../models/Type");
 const User = require("../models/User");
 const Venue = require("../models/Venue");
 
+
+//  Run this command to seed the datafile from the mongoDB:
+//  mongoimport --type csv -d show-management_db -c shows --headerline DatasetShows-csv.csv
+//
+
+
+
     Type.deleteMany({}).then(() => {
         Type.collection.insertMany([
         {
@@ -30,7 +37,7 @@ const Venue = require("../models/Venue");
     .catch(err => console.log(err));
 });
 
-
+    
     Show.deleteMany({}).then(() => {
         Show.collection.insertMany([
         {
@@ -86,8 +93,18 @@ const Venue = require("../models/Venue");
             type: "Pyrotechnics",
             user: ["Kelm Bruechke",],
             role: ["Cover License",]
-        }
+        },
+        {
+            businessName: "",
+            status: "",
+            showDate: "",
+            venue: "",
+            type: "",
+            user: ["",],
+            role: ["",]
+        },
     ])
+    
 
     .then(shows => console.log(shows))
     .catch(err => console.log(err));

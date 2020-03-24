@@ -6,7 +6,6 @@ router.get("/", (req, res) => {
     Show.find().then(shows => res.json(shows));
 });
 
-
 router.get("/:_id", (req, res) => {
     console.log(req.params._id)
     const showId = req.params._id;
