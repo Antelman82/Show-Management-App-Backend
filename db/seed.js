@@ -36,7 +36,7 @@ const Venue = require("../models/Venue");
         {
             businessName: "ISU - Wrestling",
             status: "Complete",
-            date: 01/13/2019,
+            date: 2019-01-13,
             venue: "Hilton Coliseum",
             type: "Pyrotechnics",
             user: ["Kelm Brueschke", "Anthony Antelman", "Mike Merrill", "Jacob Amsden",],

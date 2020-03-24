@@ -3,26 +3,12 @@ const Schema = mongoose.Schema;
 
 const Show = new Schema({
   businessName: String,
-  status: ["Prospect", "Scheduled", "Complete", "Cancelled"],
+  status: [],
   date: Date,
-  venue: [
-    {
-        ref: "Venue",
-        type: mongoose.Schema.Types.ObjectId
-    }  
-    ],
-  type: [
-    {
-        ref: "Type",
-        type: mongoose.Schema.Types.ObjectId
-    }  
-    ],
-  user: [
-      {
-      ref: "User",
-      type: mongoose.Schema.Types.ObjectId
-    }
-    ]
+  venue: String,
+  type: String,
+  user: [],
+  role: []
 });
 
 module.exports = mongoose.model('Show', Show);
