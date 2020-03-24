@@ -266,7 +266,7 @@ const Venue = require("../models/Venue");
             lastName: 'Shibinskaya',
             phone: '310.600.6571',
             email: 'yulia@ffp-fx.net',
-            comment: 'Best Indoor Gig Ever!!!'
+            comment: 'Best Indoor Gig Ever So Much Pyrotechnics & Special Effects!!!'
         },
         {
             businessName: 'Disturbed - Concert Tour',
