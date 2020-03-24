@@ -10,17 +10,17 @@ const Venue = require("../models/Venue");
     Type.deleteMany({}).then(() => {
         Type.collection.insertMany([
         {
-            show: "Fireworks",
+            type: "Fireworks",
             description: `A professional 'Fireworks' display refers to a show that is always conducted outdoors and typically consists of all or some of the following: aerial fireworks shells, ground effects incuding multi-shot barrage units (cakes), fireballs, set pieces (lance-work), close proximity mines, comets, gerbs to name a few. Examples of 'Fireworks' shows occur for July 4th Events, Town Celebrations, Weddings, Anniversaries and Corporate Events just to name a few.`,
             pictures: ["WeddingFireworks1.png", "JC-FWX-Pond2.png"]
         },
         {
-            show: "Pyrotechnics",
+            type: "Pyrotechnics",
             description: `"Pyrotechnics" can be used in two different methods - Indoor Pyrotechinc Effects or Outdoor Close Proximity Effects. Indoor effects would include flames, mines, comets, gerbs (fountains), concussions, airbursts, flash pots, etc. Some of the uses for this type of effect would include sporting events, concerts, stage productions, corporate events, just to name a few. Outdoor Close Proximity Pyrotechnics include similar effects as indoor, but usually much bigger. Some examples are flames that can go as high as 150' and Gasoline Fireballs. Also Mines and Comets that can reach 300'`,
             pictures: ["Pyro-ISU1.png", "Slipknot-pyro.jpg"]
         },
         {
-            show: "Special Effects",
+            type: "Special Effects",
             description: `"Special Effects" are different effects which are used to enhance a performance, meeting, presentation, celebration or many other special occaisions. They include such things as confetti, streamers, balloons, atmospherics (fog, dry ice, haze, bubbles, snow) and cryo-jets. These items are typyically non-pyrotechnic and can be used indoors or outdoors.`,
             pictures: ["Kiss-Confetti.png", "Nickelback-SFX.jpg"]
         }
@@ -73,7 +73,7 @@ const Venue = require("../models/Venue");
             businessName: "Jordan Creek Town Center",
             status: "Complete",
             date: 06/30/2019,
-            venue: "6/30/19",
+            venue: "Jordan Creek Mall Pond",
             type: "Fireworks",
             user: ["Kelm Brueschke", "Mike Merrill", "Jacob Amsden", "Anthony Antelman", "Ryan Hudson", "Doglas Gerwulf"],
             role: ["Lead Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator",]

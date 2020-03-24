@@ -8,4 +8,12 @@ router.get("/", (req, res) => {
 
 });
 
+router.get("/:_id", (req, res) => {
+    console.log(req.params._id)
+    const customerId = req.params._id;
+    Customer.find({ _id: customerId }).then(customer => {
+      res.json(customer);
+    });
+  });
+
 module.exports = router
