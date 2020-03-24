@@ -32,7 +32,23 @@ router.get("/:_id", (req, res) => {
 //     });
 //   });
 
-
+// router.post("/new", (req, res) => {
+//     User.create(req.body.user).then(newUser => {
+//       Bookmark.create(req.body.bookmark).then(newBookmark => {
+//         // push new bookmark id into user.favorites array
+//         newUser.favorites.push(newBookmark._id);
+//         // push new user id into bookmark.favorited array
+//         newBookmark.favorited.push(newUser._id);
+  
+//         // save both or they wont persist
+//         newUser.save();
+//         newBookmark.save();
+//         // send entire document back
+//         res.json(newUser);
+//       });
+//     });
+//   });
+  
 
 
 

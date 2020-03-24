@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const Show = new Schema({
   businessName: String,
-  status: [],
+  status: String,
   showDate: String,
   venue: String,
   type: String,
