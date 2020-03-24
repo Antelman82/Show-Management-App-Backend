@@ -10,4 +10,6 @@ const Venue = new Schema({
     zip: String
 });
 
+
+
 module.exports = mongoose.model('Venue', Venue);
