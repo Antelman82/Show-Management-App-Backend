@@ -36,7 +36,7 @@ const Venue = require("../models/Venue");
         {
             businessName: "ISU - Wrestling",
             status: "Complete",
-            date: 2019-01-13,
+            showDate: "01/13/2019",
             venue: "Hilton Coliseum",
             type: "Pyrotechnics",
             user: ["Kelm Brueschke", "Anthony Antelman", "Mike Merrill", "Jacob Amsden",],
@@ -45,7 +45,7 @@ const Venue = require("../models/Venue");
         {
             businessName: "RV One - Tampa",
             status: "Complete",
-            date: 01/16/2019,
+            showDate: "01/16/2019",
             venue: "RV One Tampa Pond",
             type: "Fireworks",
             user: ["Kelm Brueschke",],
@@ -54,7 +54,7 @@ const Venue = require("../models/Venue");
         {
             businessName: "Iowa Wild",
             status: "Complete",
-            date: 01/14/2019,
+            showDate: "01/14/2019",
             venue: "Wells Fargo Arena",
             type: "Special Effects",
             user: ["Mike Merrill",],
@@ -63,7 +63,7 @@ const Venue = require("../models/Venue");
         {
             businessName: "Disturbed Concert Tour",
             status: "Complete",
-            date: 01/23/2019,
+            showDate: "01/23/2019",
             venue: "Sprint Center",
             type: "Pyrotechnics",
             user: ["Kelm Bruechke",],
@@ -72,7 +72,7 @@ const Venue = require("../models/Venue");
         {
             businessName: "Jordan Creek Town Center",
             status: "Complete",
-            date: 06/30/2019,
+            showDate: "06/30/2019",
             venue: "Jordan Creek Mall Pond",
             type: "Fireworks",
             user: ["Kelm Brueschke", "Mike Merrill", "Jacob Amsden", "Anthony Antelman", "Ryan Hudson", "Doglas Gerwulf"],
@@ -81,7 +81,7 @@ const Venue = require("../models/Venue");
         {
             businessName: "KISS Tour",
             status: "Cancelled",
-            date: 11/23/2019,
+            showDate: "11/23/2019",
             venue: "Qudos Bank Arena (Australia)",
             type: "Pyrotechnics",
             user: ["Kelm Bruechke",],
