@@ -40,69 +40,69 @@ const Venue = require("../models/Venue");
     
     Show.deleteMany({}).then(() => {
         Show.collection.insertMany([
-        {
-            businessName: "ISU - Wrestling",
-            status: "Complete",
-            showDate: "01/13/2019",
-            venue: "Hilton Coliseum",
-            type: "Pyrotechnics",
-            user: ["Kelm Brueschke", "Anthony Antelman", "Mike Merrill", "Jacob Amsden",],
-            role: ["Lead Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator",]
-        },
-        {
-            businessName: "RV One - Tampa",
-            status: "Complete",
-            showDate: "01/16/2019",
-            venue: "RV One Tampa Pond",
-            type: "Fireworks",
-            user: ["Kelm Brueschke",],
-            role: ["Lead Operator",]
-        },
-        {
-            businessName: "Iowa Wild",
-            status: "Complete",
-            showDate: "01/14/2019",
-            venue: "Wells Fargo Arena",
-            type: "Special Effects",
-            user: ["Mike Merrill",],
-            role: ["Lead Operator",]
-        },
-        {
-            businessName: "Disturbed Concert Tour",
-            status: "Complete",
-            showDate: "01/23/2019",
-            venue: "Sprint Center",
-            type: "Pyrotechnics",
-            user: ["Kelm Bruechke",],
-            role: ["Cover License",]
-        },
-        {
-            businessName: "Jordan Creek Town Center",
-            status: "Complete",
-            showDate: "06/30/2019",
-            venue: "Jordan Creek Mall Pond",
-            type: "Fireworks",
-            user: ["Kelm Brueschke", "Mike Merrill", "Jacob Amsden", "Anthony Antelman", "Ryan Hudson", "Doglas Gerwulf"],
-            role: ["Lead Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator",]
-        },
-        {
-            businessName: "KISS Tour",
-            status: "Cancelled",
-            showDate: "11/23/2019",
-            venue: "Qudos Bank Arena (Australia)",
-            type: "Pyrotechnics",
-            user: ["Kelm Bruechke",],
-            role: ["Cover License",]
-        },
-        {
-            businessName: "",
-            status: "",
-            showDate: "",
-            venue: "",
-            type: "",
-            user: ["",],
-            role: ["",]
-        },
+        // {
+        //     businessName: "ISU - Wrestling",
+        //     status: "Complete",
+        //     showDate: "01/13/2019",
+        //     venue: "Hilton Coliseum",
+        //     type: "Pyrotechnics",
+        //     user: ["Kelm Brueschke", "Anthony Antelman", "Mike Merrill", "Jacob Amsden",],
+        //     role: ["Lead Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator",]
+        // },
+        // {
+        //     businessName: "RV One - Tampa",
+        //     status: "Complete",
+        //     showDate: "01/16/2019",
+        //     venue: "RV One Tampa Pond",
+        //     type: "Fireworks",
+        //     user: ["Kelm Brueschke",],
+        //     role: ["Lead Operator",]
+        // },
+        // {
+        //     businessName: "Iowa Wild",
+        //     status: "Complete",
+        //     showDate: "01/14/2019",
+        //     venue: "Wells Fargo Arena",
+        //     type: "Special Effects",
+        //     user: ["Mike Merrill",],
+        //     role: ["Lead Operator",]
+        // },
+        // {
+        //     businessName: "Disturbed Concert Tour",
+        //     status: "Complete",
+        //     showDate: "01/23/2019",
+        //     venue: "Sprint Center",
+        //     type: "Pyrotechnics",
+        //     user: ["Kelm Bruechke",],
+        //     role: ["Cover License",]
+        // },
+        // {
+        //     businessName: "Jordan Creek Town Center",
+        //     status: "Complete",
+        //     showDate: "06/30/2019",
+        //     venue: "Jordan Creek Mall Pond",
+        //     type: "Fireworks",
+        //     user: ["Kelm Brueschke", "Mike Merrill", "Jacob Amsden", "Anthony Antelman", "Ryan Hudson", "Doglas Gerwulf"],
+        //     role: ["Lead Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator", "Assistant Operator",]
+        // },
+        // {
+        //     businessName: "KISS Tour",
+        //     status: "Cancelled",
+        //     showDate: "11/23/2019",
+        //     venue: "Qudos Bank Arena (Australia)",
+        //     type: "Pyrotechnics",
+        //     user: ["Kelm Bruechke",],
+        //     role: ["Cover License",]
+        // },
+        // {
+        //     businessName: "",
+        //     status: "",
+        //     showDate: "",
+        //     venue: "",
+        //     type: "",
+        //     user: ["",],
+        //     role: ["",]
+        // },
     ])
     
 

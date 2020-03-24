@@ -25,11 +25,16 @@ router.get("/:_id", (req, res) => {
   });
 
 
-router.post("/", (req, res) => {
-    const newUser = req.body;
-    User.create(newUser).then(created => {
-      res.json(created);
-    });
-  });
+// router.post("/", (req, res) => {
+//     const newUser = req.body;
+//     User.create(newUser).then(created => {
+//       res.json(created);
+//     });
+//   });
+
+
+
+
+
 
 module.exports = router;

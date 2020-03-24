@@ -14,7 +14,4 @@ router.get("/:_id", (req, res) => {
     });
   });
 
-
-
-
 module.exports = router
