@@ -22,6 +22,7 @@ app.use('/api/shows/', showController);
 app.use('/api/types/', typeController);
 app.use('/api/products/', productController);
 app.use('/api/equipments/', equipmentController);
+//app.use(parser.json());
 
 
 app.listen(4000, () => console.log('Server running on port 4000!'))

@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const User = require("../models/User");
+// const parser = require("body-parser");
+
 
 
 
@@ -14,43 +16,31 @@ router.get("/:_id", (req, res) => {
     User.find({ _id: userId }).then(user => {
       res.json(user);
     });
-  });
+});
 
-  router.get("/:userName", (req, res) => {
+router.get("/:userName", (req, res) => {
     console.log(req.params)
     const userName = req.params.userName;
     User.findOne({ userName: userName }).then(user => {
       res.json(user);
     });
-  });
+});
 
+router.post("/", (req, res) => {
+    // const newUser = req.body;
+    User.create(req.body).then(newUser => {
+      res.json(newUser);
+      console.log(newUser);
+    });
+});
 
-// router.post("/", (req, res) => {
-//     const newUser = req.body;
-//     User.create(newUser).then(created => {
-//       res.json(created);
-//     });
-//   });
+router.put('/:id', (req, res) => {
+    User.findByIdAndUpdate(req.params.id, req.body, {new: true})
+      .then(updatedUser => res.json(updatedUser))
+ })
 
-// router.post("/new", (req, res) => {
-//     User.create(req.body.user).then(newUser => {
-//       Bookmark.create(req.body.bookmark).then(newBookmark => {
-//         // push new bookmark id into user.favorites array
-//         newUser.favorites.push(newBookmark._id);
-//         // push new user id into bookmark.favorited array
-//         newBookmark.favorited.push(newUser._id);
-  
-//         // save both or they wont persist
-//         newUser.save();
-//         newBookmark.save();
-//         // send entire document back
-//         res.json(newUser);
-//       });
-//     });
-//   });
-  
+router.delete('/:id', (req, res) => {
+    User.findByIdAndDelete(req.params.id).then(deletedUser => res.json(deletedUser))
+ })
 
-
-
-
-module.exports = router;
+ module.exports = router;
