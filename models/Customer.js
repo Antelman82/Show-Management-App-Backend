@@ -3,13 +3,10 @@ const Schema = mongoose.Schema;
 
 const Customer = new Schema({
   businessName: String,
-  contacts: [{
-    firstName: String,
-    lastName: String,
-    phone: String,
-    email: String
-  }],
-  
+  firstName: String,
+  lastName: String,
+  phone: String,
+  email: String,
   comment: []
 });
 

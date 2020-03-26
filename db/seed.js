@@ -6,14 +6,12 @@ const Show = require("../models/Show");
 const Type = require("../models/Type");
 const User = require("../models/User");
 const Venue = require("../models/Venue");
-//const DatasetShows = require('./DatasetShows-csvjson.json');
+const DatasetShows = require('../DatasetShows-csvjson.json');
 
 
 //  Run this command to seed the datafile from the mongoDB:
 //  mongoimport --type csv -d show-management_db -c shows --headerline DatasetShows-csv.csv
 //
-
-
 
     Type.deleteMany({}).then(() => {
         Type.collection.insertMany([
@@ -40,7 +38,7 @@ const Venue = require("../models/Venue");
 
     
     Show.deleteMany({}).then(() => {
-        Show.collection.insertMany([
+         Show.collection.insertMany([
         // {
         //     businessName: "ISU - Wrestling",
         //     status: "Complete",
@@ -105,8 +103,6 @@ const Venue = require("../models/Venue");
         //     role: ["",]
         // },
     ])
-    
-
     .then(shows => console.log(shows))
     .catch(err => console.log(err));
 });
@@ -199,9 +195,29 @@ const Venue = require("../models/Venue");
         }
     ])
 
-    .then(users => console.log(users))
-    .catch(err => console.log(err))
-});
+    .then(users => {
+        usersArray = users.ops
+        // console.log('usersArray ',users.ops)
+        Show.deleteMany({})
+        // return users
+        })
+        .then(()=>{
+        // console.log('users[0]', users[0])
+        console.log('usersArray.ops ',usersArray[0])
+        DatasetShows.forEach(show => {
+            show.user = [usersArray[Math.floor(Math.random()*usersArray.length)]._id]
+            Show.create(show).then(show => console.log(show))
+            })
+            // Show.collection.insertMany(DatasetShows)
+            // .then(shows => console.log(shows))
+            .catch(err => console.log(err));
+            })
+        .catch(err => console.log(err))
+    });
+
+//    .then(users => console.log(users))
+//    .catch(err => console.log(err))
+//  });
 
     Customer.deleteMany({}).then(() => {
         Customer.collection.insertMany([

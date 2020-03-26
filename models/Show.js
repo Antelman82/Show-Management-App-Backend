@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const Show = new Schema({
   businessName: String,
   status: String,
-  showDate: String,
+  date: String,
   venue: String,
   type: String,
   user: [],

@@ -15,6 +15,7 @@ const equipmentController = require('./controllers/equipments');
 // 2. Add the code needed to make body-parser work within your app.
 
 app.use(cors());
+app.use(express.json());
 app.use('/api/customers/', customerController);
 app.use('/api/venues/', venueController);
 app.use('/api/users/', userController);
