@@ -6,12 +6,7 @@ const Product = new Schema({
     size: String,
     description: String,
     quantity: Number,
-    type: [
-        {
-            ref: "Type",
-            type: mongoose.Schema.Types.ObjectId
-        }  
-      ]
+    type: String
 });
 
 module.exports = mongoose.model('Product', Product);
