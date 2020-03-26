@@ -6,7 +6,7 @@ const Show = require("../models/Show");
 const Type = require("../models/Type");
 const User = require("../models/User");
 const Venue = require("../models/Venue");
-const DatasetShows = require('../DatasetShows-csvjson.json');
+const DatasetShows = require('../db/DatasetShows-csv5json.json');
 
 
 //  Run this command to seed the datafile from the mongoDB:

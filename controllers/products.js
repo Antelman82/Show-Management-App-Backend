@@ -11,7 +11,7 @@ router.post("/", (req, res) => {
   });
 }); 
 
-// READ Product
+// READ Product  test=OK
 router.get("/:_id", (req, res) => {
   console.log(req.params._id);
   const productId = req.params._id;
@@ -20,21 +20,10 @@ router.get("/:_id", (req, res) => {
   });
 });
 
-// READ Product
+// READ Product  test=OK
 router.get("/", (req, res) => {
   Product.find().then(products => res.json(products));
 });
-
-// // UPDATE Product
-// router.put('/:id', (req, res) => {
-//   Product.findByIdAndUpdate(req.params.id, req.body, {new: true})
-//       .then(updatedProduct => res.json(updatedProduct))
-// });
-
-// // DELETE Product
-// router.delete('/:id', (req, res) => {
-//   Product.findByIdAndDelete(req.params.id).then(deletedProduct => res.json(deletedProduct))
-// });
 
 // UPDATE Product  test=OK
 router.put('/:id', (req, res) => {
@@ -46,6 +35,5 @@ router.put('/:id', (req, res) => {
 router.delete('/:id', (req, res) => {
   Product.findByIdAndDelete(req.params.id).then(deletedProduct => res.json(deletedProduct))
 });
-
 
 module.exports = router
