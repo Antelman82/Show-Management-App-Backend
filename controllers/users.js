@@ -20,7 +20,7 @@ router.get("/:_id", (req, res) => {
 });
 
 // READ User  test=OK
-router.get("/:userName", (req, res) => {
+router.get("/username/:userName", (req, res) => {
     console.log(req.params)
     const userName = req.params.userName;
     User.findOne({ userName: userName }).then(user => {
