@@ -1,6 +1,18 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost/show-management_db', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+// const mongoURI = 'mongodb://localhost/show-management_db'
+let mongoURI = '';
+if (process.env.NODE_ENV === "production") {
+    mongoURI = process.env.MONGODB_URI;
+  } else {
+    mongoURI = 'mongodb://localhost/show-management_db';
+  }
+
+mongoose.connect(mongoURI, 
+    { 
+        useNewUrlParser: true, 
+        useUnifiedTopology: true, 
+        useFindAndModify: false })
 
 .catch(error => console.log("Connection Failed", error))
 

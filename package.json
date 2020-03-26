@@ -4,7 +4,7 @@
   "description": "<p>https://github.com/Antelman82/Show-Management-App-Frontend</p> <p>https://github.com/Antelman82/Show-Management-App-Backend</p>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

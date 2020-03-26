@@ -23,4 +23,8 @@ app.use('/api/products/', productController);
 app.use('/api/equipments/', equipmentController);
 app.use(cors());
 
-app.listen(4000, () => console.log('Server running on port 4000!'))
+app.set("port", process.env.PORT || 8080);
+
+app.listen(app.get("port"), () => {
+    console.log(`✅ PORT: ${app.get("port")} 🌟`);
+  });
