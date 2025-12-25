@@ -1,0 +1,21 @@
+{
+  "reporter": ["html", "text", "text-summary"],
+  "report-dir": "./coverage",
+  "sourceMap": false,
+  "instrument": true,
+  "all": true,
+  "include": [
+    "controllers/**/*.js",
+    "models/**/*.js",
+    "index.js"
+  ],
+  "exclude": [
+    "node_modules/**",
+    "test/**",
+    "coverage/**"
+  ],
+  "lines": 100,
+  "statements": 100,
+  "functions": 100,
+  "branches": 100
+}
